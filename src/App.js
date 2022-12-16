@@ -5,6 +5,7 @@ import Layout from './components/layout/Layout';
 import Main from './pages/Main';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Admin from './pages/Admin';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path='/admin' element={<Admin />} />
       </Routes>
     </Layout>
   );

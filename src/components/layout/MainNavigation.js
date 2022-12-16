@@ -29,6 +29,11 @@ const MainNavigation = () => {
               Contact
             </NavLink>
           </li>
+          <li>
+            <NavLink to="/admin" className={(navData) => (navData.isActive ? 'active' : '')}>
+              Login
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>
