@@ -1,13 +1,25 @@
 import { NavLink } from 'react-router-dom';
 
+import logo from '../../images/logo.svg';
+import classes from './MainNavigation.module.css';
+
 const MainNavigation = () => {
   return (
-    <header>
-      <div>J & D RV Repairs</div>
-      <nav>
+    <header className={classes.header}>
+      <div className={classes.logo}>
+        <NavLink to="/">
+          <img src={logo} alt="J & D RV Repairs" />
+        </NavLink>
+      </div>
+      <nav className={classes.nav}>
         <ul>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink
+              to="/about"
+              className={(navData) => (navData.isActive ? 'active' : '')}
+            >
+              About
+            </NavLink>
           </li>
         </ul>
       </nav>
