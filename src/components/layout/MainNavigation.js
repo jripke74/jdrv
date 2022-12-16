@@ -21,6 +21,14 @@ const MainNavigation = () => {
               About
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/contact"
+              className={(navData) => (navData.isActive ? 'active' : '')}
+            >
+              Contact
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>

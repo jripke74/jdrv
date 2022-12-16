@@ -3,3 +3,13 @@
   width: 90%;
   max-width: 40rem;
 }
+
+main.h1 {
+  text-align: center;
+}
+
+.footer {
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+}
