@@ -34,7 +34,7 @@ const Main = () => {
         <h2>
           Call Douglas Ripke: <a href="tel:360-202-7984">360-202-7984</a>
         </h2>
-        <a href={locatorUrl} target="_blank">
+        <a href={locatorUrl} target="_blank" rel="noreferrer">
           <img src={rvtaaLogo} alt="RVTAA Logo" />
         </a>
       </div>
