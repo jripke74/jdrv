@@ -6,8 +6,7 @@ const Main = () => {
   const locatorUrl = 'https://rvservicegroup.com/member-information/?uid=3081';
 
   return (
-    <Fragment>
-      <div>
+    <div>
         <h1>J&D RV Repair and Inspections</h1>
         <h2>
           Call Douglas Ripke: <a href="tel:360-202-7984">360-202-7984</a>
@@ -37,8 +36,7 @@ const Main = () => {
         <a href={locatorUrl} target="_blank" rel="noreferrer">
           <img src={rvtaaLogo} alt="RVTAA Logo" />
         </a>
-      </div>
-    </Fragment>
+    </div>
   );
 };
 
