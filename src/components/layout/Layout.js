@@ -11,7 +11,7 @@ const Layout = (props) => {
       <MainNavigation />
       <main className={classes.main}>{props.children}</main>
       <footer className={classes.footer}>
-        <p>&copy; {`Jeff Ripke ${currentYear}`}</p>{' '}
+        <p>Copyright &copy; {`Ripke Enterprises ${currentYear}`}</p>{' '}
       </footer>
     </Fragment>
   );
