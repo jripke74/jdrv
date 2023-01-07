@@ -4,7 +4,7 @@ const About = () => {
   return (
     <Fragment>
       <div className="centered">
-        <h1>How to get ahold of us:</h1>
+        <h1>How to get a hold of us:</h1>
         <p>Douglas Ripke</p>
         <p>
           <a href="360-202-7984">360-202-7984</a>
