@@ -6,10 +6,14 @@ const About = () => {
       <div className="centered">
         <h1>How to get ahold of us:</h1>
         <p>Douglas Ripke</p>
-        <p>509-795-6998</p>
+        <p>
+          <a href="360-202-7984">360-202-7984</a>
+        </p>
         <p>douglas@ripke.io</p>
         <p>Jeff Ripke</p>
-        <p>509-795-6998</p>
+        <p>
+          <a href="509-795-6998">509-795-6998</a>
+        </p>
         <p>jeff@ripke.io</p>
       </div>
     </Fragment>
