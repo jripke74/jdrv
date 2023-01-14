@@ -50,7 +50,6 @@ const AuthForm = () => {
             if (data && data.error && data.error.message) {
               errorMessage = data.error.message;
             }
-
             throw new Error(errorMessage);
           });
         }
