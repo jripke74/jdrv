@@ -15,6 +15,14 @@ const MainNavigation = () => {
         <ul>
           <li>
             <NavLink
+              to="/services"
+              className={(navData) => (navData.isActive ? 'active' : '')}
+            >
+              Services
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/about"
               className={(navData) => (navData.isActive ? 'active' : '')}
             >
