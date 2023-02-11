@@ -1,5 +1,14 @@
+import { Fragment } from 'react';
+
+import logo from '../images/logo.svg';
+
 const Services = () => {
-  return <h1>Services we offer</h1>;
+  return (
+    <Fragment>
+      <h1>Services we offer</h1>
+      <img src={logo} />
+    </Fragment>
+  );
 };
 
 export default Services;
