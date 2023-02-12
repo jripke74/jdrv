@@ -54,3 +54,11 @@ body {
   background-color: teal;
   color: white;
 }
+
+.services {
+  margin: auto 0;
+}
+
+.services img {
+  height: 16rem;
+}

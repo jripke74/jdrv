@@ -1,13 +1,14 @@
-import { Fragment } from 'react';
-
 import logo from '../images/logo.svg';
 
 const Services = () => {
   return (
-    <Fragment>
-      <h1>Services we offer</h1>
+    <div className="services centered">
       <img src={logo} />
-    </Fragment>
+      <h1>J&D RV Repair & Inspections</h1>
+      <h2>Certified and Registered Rv Technicians</h2>
+      <p>We Love RV’ing and we want to help you Love RV’ing also</p>
+      <h2>Services we offer</h2>
+    </div>
   );
 };
 
